@@ -1,0 +1,112 @@
+.bg-img {
+  position: relative;
+  background-image: url(../images/free-road-map-vector-74g9u.webp);
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+}
+
+.car-move {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 75%;
+  animation-name: animation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  0% {
+    left: 0%;
+  }
+  5% {
+    left: 14%;
+    top: 75%;
+    transform: rotate(-30deg);
+  }
+  10% {
+    left: 17%;
+    top: 70%;
+    transform: rotate(-45deg);
+  }
+  15% {
+    left: 19%;
+    top: 65%;
+    transform: rotate(-90deg);
+  }
+  20% {
+    left: 22%;
+    top: 48%;
+    transform: rotate(0deg);
+  }
+  25% {
+    left: 30%;
+    top: 41%;
+    transform: rotate(45deg);
+  }
+  30% {
+    left: 34%;
+    top: 45%;
+    transform: rotate(90deg);
+  }
+  35% {
+    left: 34%;
+    top: 70%;
+    transform: rotate(45deg);
+  }
+  40% {
+    left: 43%;
+    top: 84%;
+    transform: rotate(0deg);
+  }
+  45% {
+    left: 53%;
+    top: 70%;
+    transform: rotate(-90deg);
+  }
+  50% {
+    left: 53%;
+    top: 25%;
+    transform: rotate(0deg);
+  }
+  55% {
+    left: 63%;
+    top: 27%;
+    transform: rotate(90deg);
+  }
+  60% {
+    left: 65%;
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  75% {
+    left: 73%;
+    top: 60%;
+    transform: rotate(0deg);
+  }
+  80% {
+    left: 78%;
+    top: 50%;
+    transform: rotate(-90deg);
+  }
+  85% {
+    left: 81%;
+    top: 30%;
+    transform: rotate(-45deg);
+  }
+  90% {
+    left: 90%;
+    top: 25%;
+    transform: rotate(45deg);
+  }
+  95% {
+    left: 95%;
+    top: 25%;
+  }
+  100% {
+    left: 100%;
+    top: 25%;
+  }
+}
